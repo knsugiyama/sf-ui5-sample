@@ -1,0 +1,8 @@
+{
+    "name": "Node.js Development (Dockerfile & Compose)",
+    "dockerComposeFile": [
+        "../docker-compose.yml" // docker-compose.yml ファイルのパス
+    ],
+    "service": "app", // docker-compose.yml で定義したサービス名
+    "workspaceFolder": "/home/" // コンテナ内のワークスペースフォルダ
+}
